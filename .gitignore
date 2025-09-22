@@ -1,0 +1,24 @@
+fabric-samples/test-network/organizations/
+fabric-samples/test-network/channel-artifacts/
+fabric-samples/test-network/system-genesis-block/
+fabric-samples/test-network/ledger/
+
+*.log
+logs/
+node_modules/
+
+log-server/wallet/
+log-server/admin-cert.pem
+log-server/admin-key.pem
+
+config (sensitive)
+.cloudflared/
+
+*.tmp
+*.temp
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
